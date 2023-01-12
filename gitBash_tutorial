@@ -1,0 +1,43 @@
+Using GitBash to upload to GitHub From CLI
+
+1. Create a repository on Git Website
+---------------------------------------------------------------------------
+
+copy the repository to your localhost
+
+2. copy [directory html]
+---------------------------------------------------------------------------
+
+remember to change the directory to the desired location 
+
+3. cd users...
+---------------------------------------------------------------------------
+
+Once your there, initialize the folder that you want to make into the main root repository for the local host.
+
+4. git init
+---------------------------------------------------------------------------
+
+It is important to check what files have been changed, or updated. You can see what is 
+
+git status
+
+using Sublime, or relly any text editor, you can edit the files as you 
+please, or even add files.
+When you are satisfied with changes, 'add' them to the github directory.
+
+5. git add [.] // adds 
+   git reset [file]	 
+---------------------------------------------------------------------------
+
+Now you must commit what you added to the repository itself. The first message being a conscise title with the last being a description of the change.
+
+6. git commit -m "" -m ""
+---------------------------------------------------------------------------
+
+connect the origin of the data to the root directory within GitHub, then finally you can push the localhost changes to GitHub.
+
+7. git remote add origin [https of directory]
+   git push -u origin main
+
+   //You will be prompted to login to your git acc and verify your ownership

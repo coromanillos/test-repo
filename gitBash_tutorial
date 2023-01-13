@@ -1,4 +1,6 @@
+mkdir -> creates a directory (a folder) which you can then initialize.
 Using GitBash to upload to GitHub From CLI
+
 
 1. Create a repository on Git Website
 ---------------------------------------------------------------------------
@@ -15,7 +17,10 @@ remember to change the directory to the desired location
 
 Once your there, initialize the folder that you want to make into the main root repository for the local host.
 
+-> mkdir [folder name] i.e. ~mkdir test-repo
 4. git init
+-> \copy [HTTPs] 
+clone existing dierctory from gitHub.
 ---------------------------------------------------------------------------
 
 It is important to check what files have been changed, or updated. You can see what is 

@@ -1,1 +1,29 @@
 The girl from ipamena, wawawawaw, testtesttest 'godog' 
+
+USING GITBASH
+
+1. CREATE REPO ON GITHUB
+
+2. Change directory to localuser file, then innitialize the folder that will hold the project.
+	~git init
+
+3. MAKE ANY CHANGES TO PROGRAM FILES FOLDERS ETC.
+
+4. Check the status of what has been changed/modified
+	~git status
+
+5. Decide what to add by using
+	~git add . //adds everything in red OR
+	~git add [file name] //adds specific files
+	~git reset //inverse to add, removes file(s) from queue.
+
+6. Commit to gitHub by making a title and description
+	~git commit -m '*title' -m '*description'
+
+7. set the localuser files to be uploaded to the gitHub repository
+	~git remote add origin [HTTPS] //Find the HTTPs of the directory by clicking on 'CODE';
+
+8. Push the changes that you have committed from localuser to gitHub.
+	~git remote add origin [HTTPs] 
+	-> 
+	~git push -u origin main

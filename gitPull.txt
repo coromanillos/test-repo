@@ -1,0 +1,15 @@
+Why use git Pull?
+
+1. Fork the Repository
+
+//Allows  you to freely experiment with changes without affecting the original project.
+
+Make sure your in the correct directory/folder where the projet is stored.
+
+From here, create a new branch by using the command:
+~git checkout -b 'branch_name'
+
+>> 
+-b = create a new branch by the specified name in '*'.
+
+'checkout' = allows for navigation between the branches created by the git branch. When using 'checkout' over 'ls', you update all the files in the directory to match the version stored in the current

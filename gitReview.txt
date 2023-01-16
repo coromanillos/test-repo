@@ -1,0 +1,17 @@
+mkdir in the folder you want to hold the file.
+cd + mkdir... 
+git init >> intiailize the directory.
+git clone [HTTPs] of the gitHub directory (found online).
+make any changes/additions to the files. At which point, you can
+makve/view changes using 
+~git status ~git add . | git add [file_name]
+commit any changes added to the repository queue. 
+~git commit -m'descriptive_title' -m 'description on changes'
+//anything in quotations above will be descriptions provided to the push in gitHub.
+set the remote diretory that these changes will be pushed to
+~git remote add origin [HTTPs] of the gitHub directory.
+Finally, push the changes added to the queue.
+~git push -u origin [directory]
+
+git checkout -b 'new_branchname'
+
